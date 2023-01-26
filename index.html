@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Day 10</title>
+  </head>
+  <body>
+    <form>
+      <h1 class="maintext">Product Registration Form</h1>
+      <div class="text">
+        Register ypur product by filling in the product registration form below.
+      </div>
+      <div class="line"></div>
+      <div class="cont1">
+        <label for="name">Name</label>
+        <div class="box">
+          <input
+            type="text"
+            class="main"
+            id="name"
+            name="name"
+            placeholder="First"
+          />
+          <input
+            type="text"
+            id="last"
+            name="last"
+            placeholder="Last"
+            class="main main1"
+          />
+        </div>
+      </div>
+      <div class="cont">
+        <div class="cont2">
+          <label for="email">Email</label>
+          <div class="box1">
+            <input type="email" id="email" name="email" class="main" />
+          </div>
+        </div>
+        <div class="cont2">
+          <label for="tel" class="label">Phone</label>
+          <div class="box1">
+            <input
+              type="tel"
+              id="tel"
+              name="tel"
+              placeholder="### ### ####"
+              class="main1"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="cont1">
+        <label for="address">Address</label>
+        <div class="box">
+          <input
+            type="text"
+            class="main"
+            id="address"
+            name="address"
+            placeholder="Street Address"
+          />
+        </div>
+        <div class="box">
+          <input
+            type="text"
+            class="main"
+            id="city"
+            name="city"
+            placeholder="City"
+          />
+          <select name="state" id="state" class="main2">
+            <option value="State">State</option>
+            <option value="state1">state1</option>
+            <option value="state2">state2</option>
+          </select>
+        </div>
+        <div class="box">
+          <input
+            type="number"
+            class="main3"
+            id="code"
+            name="code"
+            placeholder="Postal/Zip Code"
+          />
+          <select name="state" class="main2">
+            <option value="State">Country</option>
+            <option value="state1">Country1</option>
+            <option value="state2">Country2</option>
+          </select>
+        </div>
+      </div>
+      <h3 class="text text2">PRODUCT INFORMATION</h3>
+      <div class="cont cont4">
+        <div class="cont2">
+          <label for="product">Product Name</label>
+          <div class="box1 box4">
+            <input type="text" id="product" name="product" class="main" />
+          </div>
+          <h6>e.g. Laptop</h6>
+        </div>
+        <div class="cont2">
+          <label for="brand" class="label">Product Brand & Model</label>
+          <div class="box1 box4">
+            <input type="text" id="brand" name="brand" class="main1" />
+          </div>
+          <h6 class="h6">e.g. Acer Aspire Nitro</h6>
+        </div>
+      </div>
+      <div class="cont cont4">
+        <div class="cont2">
+          <label for="model">Product Model ID</label>
+          <div class="box1 box4">
+            <input type="text" id="model" name="model" class="main" />
+          </div>
+          <h6>e.g. VN7793G750Z</h6>
+        </div>
+        <div class="cont2">
+          <label for="year" class="label">Product Fabrication Year</label>
+          <div class="box1 box4">
+            <input type="text" id="year" name="year" class="main1" />
+          </div>
+          <h6 class="h6">e.g. 2012</h6>
+        </div>
+      </div>
+      <label for="date">Purchase Date</label>
+      <input type="date" id="date" name="date" class="input" />
+      <h6>e.g. 12/04/2017</h6>
+      <div class="button">
+        <button type="submit">Register Product</button>
+      </div>
+    </form>
+  </body>
+</html>
